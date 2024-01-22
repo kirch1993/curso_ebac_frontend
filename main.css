@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 16px;
+}
+body>header {
+    background-color: #2b1010;
+    padding: 16px 0;
+    color: #9b040485;
+}
+
+
+header.container { 
+    display:inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display:inline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+    
+}
+
+header li a {
+    color:#9b040485;
+    text-decoration: none;
+
+    
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-top: 8px;
+}
+
+.articles article a {
+    background-color: indigo;
+    color: white;
+    padding:  8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgba(3, 82, 3, 0.863);
+    color: #c9c9c9;
+}
+
+#esportes .articles article a {
+    background-color: #03220dd6;
+    color: #c9c9c9;
+}
+
+#economia {
+    background: #ad5911ea;
+    color: #c9c9c9;
+}
+
+#economia .articles article a {
+    background-color: #834100;
+}
+
+#entretenimento {
+    background: #793e75;
+    color: #c9c9c9;
+
+}
+
+#entretenimento .articles article a {
+    background-color: #35072b;
+}
+
+#tecnologia {
+    background: #212121;
+    color: #756c06;
+
+}
+
+#tecnologia .articles article a {
+    background-color: #cfbb23;
+}
